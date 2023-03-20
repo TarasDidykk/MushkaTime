@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="javascript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").slideToggle();
+  });
+});
+</script>
+</head>
+<body>
+<main>
+ <h1 align="center">Часовий таймер співдружності</h1><br>
+<div class="countdown">
+ 
+  <div class="countdown__item">
+    <span class="countdown__time" id="days"></span>
+    <span class="countdown__label">Днів</span>
+  </div>
+  <div class="countdown__item">
+    <span class="countdown__time" id="hours"></span>
+    <span class="countdown__label">Годин</span>
+  </div>
+  <div class="countdown__item">
+    <span class="countdown__time" id="minutes"></span>
+    <span class="countdown__label">Хвилин</span>
+  </div>
+  <div class="countdown__item">
+    <span class="countdown__time" id="seconds"></span>
+    <span class="countdown__label">Секунд</span>
+  </div>
+</div>
+<div align="center" class="button">
+<button class="button-73"  role="button" >Інформація</button>
+<p>Історія цього таймера бере початок з 9 січня 2023 року. Після домовленості про дружнні листування. Початок покладено після відправлення першого повідомлення, а саме 9 січня о 10:42</p>
+</div>
+</main>
+</body>
+</html>
